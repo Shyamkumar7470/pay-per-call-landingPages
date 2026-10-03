@@ -1,0 +1,15 @@
+import type { Content } from "@/components/LandingPage";
+export const roofing: Content = { vertical: "roofing",
+  headline: "Planning a Roof Repair or Replacement?",
+  sub: "Call to discuss your roofing project with a participating roofing provider and ask about next steps in your area.",
+  cta: "Call to Discuss Your Project",
+  services: [{ t: "Roof repair", d: "Ask about leaks, missing shingles or storm damage." },
+    { t: "Roof replacement", d: "Ask about materials, timelines and how estimates work." },
+    { t: "Inspections", d: "Ask whether an inspection or estimate is offered." }],
+  steps: ["Tap the number to reach a participating roofing provider.", "They will ask about your location and project to see whether they serve your area.", "If they do, they can explain next steps such as an estimate. Calling creates no obligation."],
+  prepare: ["ZIP code", "Type of roof and approximate age", "Description of the problem", "Whether you own the property"],
+  faqs: [{ q: "Is the estimate free?", a: "Policies vary by provider. Ask on the call." },
+    { q: "Do you serve my area?", a: "Service areas vary. The provider will confirm whether they serve your location." },
+    { q: "Are providers licensed?", a: "Licensing requirements vary by state. Ask the provider about their license and insurance. [Add verified details from the advertiser only.]" }],
+  disclosures: ["This website is an independent advertising and referral service and is not a roofing contractor. It does not perform work or guarantee outcomes.",
+    "Calls are routed to a participating advertiser who may compensate this site. Service areas are determined by the advertiser. [Insert verified provider details.]"] };

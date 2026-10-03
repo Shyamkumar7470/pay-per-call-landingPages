@@ -1,0 +1,17 @@
+import type { Content } from "@/components/LandingPage";
+export const auto: Content = { vertical: "auto",
+  headline: "Looking for Auto Insurance Options?",
+  sub: "Call to talk with a licensed insurance provider about quotes for your vehicle and driving situation. Availability, coverage and rates vary by state and by individual.",
+  cta: "Call to Explore Your Options",
+  services: [{ t: "Quote questions", d: "Ask how quotes are calculated and what affects them." },
+    { t: "Coverage types", d: "Learn what liability, collision and comprehensive generally mean." },
+    { t: "Eligibility", d: "Ask whether you may qualify based on your state and driving history." }],
+  steps: ["Tap the number. The call connects to a participating insurance provider or agency.", "They may ask a few questions about you, your vehicle and your current coverage.", "They can explain options they offer. You decide whether to continue; there is no obligation from this site."],
+  prepare: ["ZIP code", "Vehicle year, make and model", "Driver's license details", "Current policy information, if any"],
+  faqs: [{ q: "Will I get a quote on the call?", a: "That depends on the provider and the information you share. A quote is not guaranteed." },
+    { q: "Can I save money?", a: "Savings are not guaranteed. Rates depend on many factors, including location, driving record and coverage chosen." },
+    { q: "Who will I be speaking with?", a: "An independent insurance advertiser, not this website. They should identify themselves on the call." },
+    { q: "Does it cost anything to call?", a: "This site does not charge you. Standard carrier charges may apply." }],
+  disclosures: ["This website is an independent advertising and referral service. It is not an insurance company, agency or broker and does not issue quotes or policies.",
+    "Calls are routed to an advertiser who may compensate this site for calls. Insurance availability varies by state. [Insert advertiser name/licensing details supplied by your network.]",
+    "[Insert call-recording / consent language ONLY if required and confirmed by your network or advertiser.]"] };
